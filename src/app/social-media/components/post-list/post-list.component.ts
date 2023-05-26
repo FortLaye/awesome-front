@@ -13,7 +13,7 @@ import { PostService } from '../../services/post.services';
 export class PostListComponent implements OnInit {
 
   posts$!: Observable<Post[]>;
-  
+
   user = {lastName: "Mangane", firstName: "abdoulaye"};
   constructor(private route: ActivatedRoute,
               private postService: PostService) { }
@@ -25,7 +25,7 @@ export class PostListComponent implements OnInit {
   }
 
   onPostCommented(postCommented: {comment: string, postId: number}){
-    // this.postService.addNewComment(postCommented);
+      this.postService.addNewComment(postCommented);
   }
 
 }

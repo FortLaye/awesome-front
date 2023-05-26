@@ -6,7 +6,7 @@ import { AfterViewInit, Directive, ElementRef, HostListener, Input, Renderer2 } 
 
 export class HighlightDirective implements AfterViewInit{
 
-	@Input() color = 'orange';
+	@Input() color = '#FFF28E';
 
 	constructor(private el: ElementRef,
 				private renderer: Renderer2){}

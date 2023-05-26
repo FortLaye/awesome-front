@@ -10,21 +10,23 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 import { MatButtonToggleModule } from "@angular/material/button-toggle";
+import {MatSelectModule} from "@angular/material/select";
 
 @NgModule({
-  exports: [
-    MatToolbarModule,
-    MatCardModule,
-    MatListModule,
-    MatButtonModule,
-    MatIconModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatCheckboxModule,
-    MatRadioModule,
-    MatProgressSpinnerModule,
-    MatButtonToggleModule,
-  ]
+    exports: [
+        MatToolbarModule,
+        MatCardModule,
+        MatListModule,
+        MatButtonModule,
+        MatIconModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatCheckboxModule,
+        MatRadioModule,
+        MatProgressSpinnerModule,
+        MatButtonToggleModule,
+        MatSelectModule
+    ]
 })
 
 export class MaterialModule {}
